@@ -152,7 +152,7 @@ export async function buildCard(c) {
   x.fillRect(cx - 60, H - 108, 120, 2);
   x.fillStyle = tok("--muted");
   x.font = `500 28px ${body}`;
-  x.fillText(`Sam's Program · ${new Date(c.date).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" })}`, cx, H - 80);
+  x.fillText(`Workout Program · ${new Date(c.date).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" })}`, cx, H - 80);
 
   return new Promise((res) => cv.toBlob(res, "image/png"));
 }

@@ -8,7 +8,7 @@ export default function Header({ view, setView, week, deload }) {
   return (
     <header className="top">
       <div className="brand">
-        <h1>Sam's Program</h1>
+        <h1>Workout Program</h1>
         <span className="wk">Week {week}{deload ? " · Deload" : ""}</span>
       </div>
       <nav className="tabs" role="tablist">

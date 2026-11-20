@@ -2,7 +2,7 @@
 export const CHEERS = [
   ["That's a wrap", "Every set you log today makes next week's weights feel lighter."],
   ["Session done", "Showing up is the hardest rep. You already did it."],
-  ["Strong work, Sam", "Your glutes did the heavy lifting today. Now they get to rest and grow."],
+  ["Strong work", "Your glutes did the heavy lifting today. Now they get to rest and grow."],
   ["Look at you go", "Consistency beats intensity, and you just stacked another day."],
   ["One more in the books", "Future you is going to thank present you for this one."],
   ["Nailed it", "Hydrate, eat some protein, and enjoy the rest of your day."],
